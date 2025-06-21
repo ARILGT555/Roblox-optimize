@@ -11,6 +11,8 @@ frame.Size = UDim2.new(0, 180, 0, 140)
 frame.Position = UDim2.new(0, 10, 0, 80)
 frame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 frame.BorderSizePixel = 0
+frame.Active = true
+frame.Draggable = true
 
 local corner = Instance.new("UICorner", frame)
 corner.CornerRadius = UDim.new(0, 10)
